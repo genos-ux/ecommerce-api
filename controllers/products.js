@@ -1,7 +1,12 @@
 // We use the named export approach
 
 export const addProduct = (req, res) => {
-  res.send("Product added.");
+  // Check if user has permission
+  // Upload product image
+  // Validate product information
+  // Save product information to database.
+  // Return response
+  res.send(req.body);
 };
 
 export const getProducts = (req, res) => {
